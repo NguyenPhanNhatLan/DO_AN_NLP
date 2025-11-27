@@ -1,0 +1,751 @@
+[{
+        "id": 1,
+        "tokens": ["Dầu", "tẩy", "trang", "Cocoon", "hoa", "hồng", "cho", "da", "dầu"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "I-PRODUCT", "I-PRODUCT", "O", "B-SKIN_TYPE", "I-SKIN_TYPE"]
+    },
+    {
+        "id": 2,
+        "tokens": ["Tinh", "chất", "Some", "By", "Mi", "AHA", "BHA", "giảm", "mụn"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "B-BRAND", "I-BRAND", "I-BRAND", "B-INGREDIENT", "B-INGREDIENT", "B-BENEFIT", "I-BENEFIT"]
+    },
+    {
+        "id": 3,
+        "tokens": ["Serum", "Balance", "Niacinamide", "10%", "cho", "da", "dầu", "mụn"],
+        "tags": ["B-PRODUCT", "B-BRAND", "B-INGREDIENT", "I-INGREDIENT", "O", "B-SKIN_TYPE", "I-SKIN_TYPE", "I-SKIN_TYPE"]
+    },
+    {
+        "id": 4,
+        "tokens": ["Kem", "dưỡng", "ẩm", "CeraVe", "chứa", "Ceramide", "và", "Hyaluronic", "Acid"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "O", "B-INGREDIENT", "O", "B-INGREDIENT", "I-INGREDIENT"]
+    },
+    {
+        "id": 5,
+        "tokens": ["Toner", "Hada", "Labo", "cấp", "ẩm", "cho", "da", "khô", "nhạy", "cảm"],
+        "tags": ["B-PRODUCT", "B-BRAND", "I-BRAND", "B-BENEFIT", "I-BENEFIT", "O", "B-SKIN_TYPE", "I-SKIN_TYPE", "I-SKIN_TYPE", "I-SKIN_TYPE"]
+    },
+    {
+        "id": 6,
+        "tokens": ["Sữa", "rửa", "mặt", "La", "Roche-Posay", "phù", "hợp", "cho", "da", "nhạy", "cảm"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "I-BRAND", "O", "O", "O", "B-SKIN_TYPE", "I-SKIN_TYPE", "I-SKIN_TYPE"]
+    },
+    {
+        "id": 7,
+        "tokens": ["Kem", "chống", "nắng", "Anessa", "SPF50", "PA++++"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "B-BENEFIT", "I-BENEFIT"]
+    },
+    {
+        "id": 8,
+        "tokens": ["Bioderma", "Sensibio", "H2O", "làm", "sạch", "dịu", "nhẹ", "cho", "da", "nhạy", "cảm"],
+        "tags": ["B-BRAND", "B-PRODUCT", "I-PRODUCT", "B-BENEFIT", "I-BENEFIT", "I-BENEFIT", "I-BENEFIT", "O", "B-SKIN_TYPE", "I-SKIN_TYPE", "I-SKIN_TYPE"]
+    },
+    {
+        "id": 9,
+        "tokens": ["Nước", "tẩy", "trang", "Garnier", "cho", "da", "thường"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "O", "B-SKIN_TYPE", "I-SKIN_TYPE"]
+    },
+    {
+        "id": 10,
+        "tokens": ["Serum", "The", "Ordinary", "Vitamin", "C", "làm", "sáng", "da"],
+        "tags": ["B-PRODUCT", "B-BRAND", "I-BRAND", "B-INGREDIENT", "I-INGREDIENT", "B-BENEFIT", "I-BENEFIT", "I-BENEFIT"]
+    },
+    {
+        "id": 11,
+        "tokens": ["Tinh", "chất", "Cosrx", "BHA", "làm", "thoáng", "lỗ", "chân", "lông"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "B-BRAND", "B-INGREDIENT", "B-BENEFIT", "I-BENEFIT", "I-BENEFIT", "I-BENEFIT", "I-BENEFIT"]
+    },
+    {
+        "id": 12,
+        "tokens": ["Mặt", "nạ", "Innisfree", "trà", "xanh", "giúp", "giảm", "dầu"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "B-BRAND", "B-INGREDIENT", "I-INGREDIENT", "B-BENEFIT", "I-BENEFIT", "I-BENEFIT"]
+    },
+    {
+        "id": 13,
+        "tokens": ["Kem", "dưỡng", "Laneige", "Water", "Sleeping", "Mask", "cấp", "ẩm", "sâu"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BENEFIT", "I-BENEFIT", "I-BENEFIT"]
+    },
+    {
+        "id": 14,
+        "tokens": ["Tinh", "chất", "Skin1004", "rau", "má", "giúp", "làm", "dịu", "da", "mụn"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "B-BRAND", "B-INGREDIENT", "I-INGREDIENT", "B-BENEFIT", "I-BENEFIT", "I-BENEFIT", "I-BENEFIT", "I-BENEFIT"]
+    },
+    {
+        "id": 15,
+        "tokens": ["Tẩy", "tế", "bào", "chết", "St", "Ives", "hạt", "mơ"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "I-BRAND", "B-INGREDIENT", "I-INGREDIENT"]
+    },
+    {
+        "id": 16,
+        "tokens": ["Gel", "rửa", "mặt", "Simple", "dịu", "nhẹ", "cho", "da", "nhạy", "cảm"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "B-BENEFIT", "I-BENEFIT", "O", "B-SKIN_TYPE", "I-SKIN_TYPE", "I-SKIN_TYPE"]
+    },
+    {
+        "id": 17,
+        "tokens": ["Serum", "trị", "mụn", "Paula", "s", "Choice", "BHA", "2%"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "I-BRAND", "I-BRAND", "B-INGREDIENT", "I-INGREDIENT"]
+    },
+    {
+        "id": 18,
+        "tokens": ["Kem", "dưỡng", "ẩm", "Clinique", "phù", "hợp", "da", "khô"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "O", "O", "B-SKIN_TYPE", "I-SKIN_TYPE"]
+    },
+    {
+        "id": 19,
+        "tokens": ["Sữa", "chống", "nắng", "La", "Roche-Posay", "cho", "da", "dầu", "mụn"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "I-BRAND", "O", "B-SKIN_TYPE", "I-SKIN_TYPE", "I-SKIN_TYPE"]
+    },
+    {
+        "id": 20,
+        "tokens": ["Nước", "hoa", "hồng", "Thayers", "không", "cồn"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "B-SAFETY", "I-SAFETY"]
+    },
+    {
+        "id": 21,
+        "tokens": ["Toner", "Klairs", "không", "chứa", "cồn", "phù", "hợp", "da", "nhạy", "cảm"],
+        "tags": ["B-PRODUCT", "B-BRAND", "B-SAFETY", "I-SAFETY", "I-SAFETY", "O", "O", "B-SKIN_TYPE", "I-SKIN_TYPE", "I-SKIN_TYPE"]
+    },
+    {
+        "id": 22,
+        "tokens": ["Gel", "dưỡng", "ẩm", "Aloe", "Vera", "Nature", "Republic"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-INGREDIENT", "I-INGREDIENT", "B-BRAND", "I-BRAND"]
+    },
+    {
+        "id": 23,
+        "tokens": ["Kem", "mắt", "Estee", "Lauder", "giảm", "quầng", "thâm"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "B-BRAND", "I-BRAND", "B-BENEFIT", "I-BENEFIT", "I-BENEFIT"]
+    },
+    {
+        "id": 24,
+        "tokens": ["Serum", "LOreal", "Hyaluronic", "Acid", "cấp", "ẩm", "sâu"],
+        "tags": ["B-PRODUCT", "B-BRAND", "B-INGREDIENT", "I-INGREDIENT", "B-BENEFIT", "I-BENEFIT", "I-BENEFIT"]
+    },
+    {
+        "id": 25,
+        "tokens": ["Tinh", "chất", "The", "Ordinary", "Retinol", "chống", "lão", "hóa"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "B-BRAND", "I-BRAND", "B-INGREDIENT", "B-BENEFIT", "I-BENEFIT", "I-BENEFIT"]
+    },
+    {
+        "id": 26,
+        "tokens": ["Serum", "Vitamin", "C", "Melano", "CC", "giúp", "sáng", "da"],
+        "tags": ["B-PRODUCT", "B-INGREDIENT", "I-INGREDIENT", "B-BRAND", "I-BRAND", "B-BENEFIT", "I-BENEFIT", "I-BENEFIT"]
+    },
+    {
+        "id": 27,
+        "tokens": ["Kem", "dưỡng", "Trilogy", "dầu", "tầm", "xuân", "dưỡng", "ẩm"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "B-BRAND", "B-INGREDIENT", "I-INGREDIENT", "I-INGREDIENT", "B-BENEFIT", "I-BENEFIT"]
+    },
+    {
+        "id": 28,
+        "tokens": ["Sữa", "rửa", "mặt", "Senka", "cho", "da", "dầu"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "O", "B-SKIN_TYPE", "I-SKIN_TYPE"]
+    },
+    {
+        "id": 29,
+        "tokens": ["Tẩy", "trang", "Byphasse", "giá", "rẻ", "dễ", "dùng"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "B-BRAND", "O", "O", "O", "O"]
+    },
+    {
+        "id": 30,
+        "tokens": ["Mặt", "nạ", "Mediheal", "tràm", "trà", "giảm", "mụn"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "B-BRAND", "B-INGREDIENT", "I-INGREDIENT", "B-BENEFIT", "I-BENEFIT"]
+    },
+    {
+        "id": 31,
+        "tokens": ["Sữa", "tắm", "Dove", "dưỡng", "ẩm", "cho", "da", "khô"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "B-BRAND", "B-BENEFIT", "I-BENEFIT", "O", "B-SKIN_TYPE", "I-SKIN_TYPE"]
+    },
+    {
+        "id": 32,
+        "tokens": ["Kem", "chống", "nắng", "Biore", "UV", "Aqua", "Rich", "SPF50"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "I-BRAND", "I-BRAND", "I-BRAND", "B-BENEFIT"]
+    },
+    {
+        "id": 33,
+        "tokens": ["Toner", "Mamonde", "hoa", "hồng", "cân", "bằng", "da"],
+        "tags": ["B-PRODUCT", "B-BRAND", "B-INGREDIENT", "I-INGREDIENT", "B-BENEFIT", "I-BENEFIT", "I-BENEFIT"]
+    },
+    {
+        "id": 34,
+        "tokens": ["Serum", "Eucerin", "Anti-Pigment", "giảm", "thâm", "nám"],
+        "tags": ["B-PRODUCT", "B-BRAND", "B-PRODUCT", "B-BENEFIT", "I-BENEFIT", "I-BENEFIT"]
+    },
+    {
+        "id": 35,
+        "tokens": ["Mặt", "nạ", "ngủ", "Kiehl", "s", "Ginger", "Leaf"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "I-BRAND", "B-INGREDIENT", "I-INGREDIENT"]
+    },
+    {
+        "id": 36,
+        "tokens": ["Tinh", "chất", "ốc", "sên", "Cosrx", "phục", "hồi", "da"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "B-INGREDIENT", "I-INGREDIENT", "B-BRAND", "B-BENEFIT", "I-BENEFIT", "I-BENEFIT"]
+    },
+    {
+        "id": 37,
+        "tokens": ["Kem", "dưỡng", "Obagi", "tái", "tạo", "da"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "B-BRAND", "B-BENEFIT", "I-BENEFIT", "I-BENEFIT"]
+    },
+    {
+        "id": 38,
+        "tokens": ["Sữa", "rửa", "mặt", "Cetaphil", "dành", "cho", "da", "khô"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "O", "O", "B-SKIN_TYPE", "I-SKIN_TYPE"]
+    },
+    {
+        "id": 39,
+        "tokens": ["Nước", "tẩy", "trang", "Vichy", "Purete", "Thermale"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT"]
+    },
+    {
+        "id": 40,
+        "tokens": ["Kem", "chống", "nắng", "Missha", "All", "Around", "Safe", "Block"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "I-PRODUCT"]
+    },
+    {
+        "id": 41,
+        "tokens": ["Mặt", "nạ", "đất", "sét", "Origins", "Clear", "Improvement"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT"]
+    },
+    {
+        "id": 42,
+        "tokens": ["Toner", "Pixi", "Glow", "Tonic", "chứa", "Glycolic", "Acid"],
+        "tags": ["B-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT", "O", "B-INGREDIENT", "I-INGREDIENT"]
+    },
+    {
+        "id": 43,
+        "tokens": ["Dầu", "gội", "Tsubaki", "dưỡng", "tóc", "suôn", "mượt"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "B-BRAND", "B-BENEFIT", "I-BENEFIT", "I-BENEFIT", "I-BENEFIT"]
+    },
+    {
+        "id": 44,
+        "tokens": ["Son", "dưỡng", "Dior", "Addict", "Lip", "Glow"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT", "I-PRODUCT"]
+    },
+    {
+        "id": 45,
+        "tokens": ["Phấn", "nước", "Sulwhasoo", "Perfecting", "Cushion"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT"]
+    },
+    {
+        "id": 46,
+        "tokens": ["Tinh", "chất", "Estee", "Lauder", "Advanced", "Night", "Repair"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "B-BRAND", "I-BRAND", "B-PRODUCT", "I-PRODUCT", "I-PRODUCT"]
+    },
+    {
+        "id": 47,
+        "tokens": ["Kem", "tay", "L", "Occitane", "Shea", "Butter", "cấp", "ẩm"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "B-BRAND", "I-BRAND", "B-INGREDIENT", "I-INGREDIENT", "B-BENEFIT", "I-BENEFIT"]
+    },
+    {
+        "id": 48,
+        "tokens": ["Sữa", "dưỡng", "ẩm", "Philosophy", "Renewed", "Hope"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT"]
+    },
+    {
+        "id": 49,
+        "tokens": ["Tẩy", "trang", "Maybelline", "Eye", "Lip", "Makeup", "Remover"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "I-PRODUCT"]
+    },
+    {
+        "id": 50,
+        "tokens": ["Kem", "dưỡng", "mắt", "Olay", "Regenerist", "giảm", "nếp", "nhăn"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "B-PRODUCT", "B-BENEFIT", "I-BENEFIT", "I-BENEFIT"]
+    },
+    {
+        "id": 51,
+        "tokens": ["Nước", "hoa", "hồng", "Dear", "Klara", "phù", "hợp", "da", "dầu"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "I-BRAND", "O", "O", "B-SKIN_TYPE", "I-SKIN_TYPE"]
+    },
+    {
+        "id": 52,
+        "tokens": ["Gel", "rửa", "mặt", "Neutrogena", "Acne", "Wash", "chứa", "Salicylic", "Acid"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT", "O", "B-INGREDIENT", "I-INGREDIENT"]
+    },
+    {
+        "id": 53,
+        "tokens": ["Kem", "chống", "nắng", "Innisfree", "Triple", "Shield", "SPF50+"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT", "B-BENEFIT"]
+    },
+    {
+        "id": 54,
+        "tokens": ["Serum", "La", "Roche-Posay", "Vitamin", "C10", "dành", "cho", "da", "thâm"],
+        "tags": ["B-PRODUCT", "B-BRAND", "I-BRAND", "B-INGREDIENT", "I-INGREDIENT", "O", "O", "B-SKIN_TYPE", "I-SKIN_TYPE"]
+    },
+    {
+        "id": 55,
+        "tokens": ["Mặt", "nạ", "Foodaholic", "Collagen", "cấp", "ẩm"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "B-BRAND", "B-INGREDIENT", "B-BENEFIT", "I-BENEFIT"]
+    },
+    {
+        "id": 56,
+        "tokens": ["Tẩy", "tế", "bào", "chết", "Cure", "Natural", "Aqua", "Gel"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "I-BRAND", "I-BRAND", "I-BRAND"]
+    },
+    {
+        "id": 57,
+        "tokens": ["Dầu", "tẩy", "trang", "Shu", "Uemura", "Ultime8"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "I-BRAND", "B-PRODUCT"]
+    },
+    {
+        "id": 58,
+        "tokens": ["Kem", "dưỡng", "Vichy", "Mineral", "89", "cấp", "nước"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "B-BRAND", "B-INGREDIENT", "I-INGREDIENT", "B-BENEFIT", "I-BENEFIT"]
+    },
+    {
+        "id": 59,
+        "tokens": ["Phấn", "phủ", "kiềm", "dầu", "Innisfree", "No", "Sebum"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "B-BENEFIT", "I-BENEFIT", "B-BRAND", "B-PRODUCT", "I-PRODUCT"]
+    },
+    {
+        "id": 60,
+        "tokens": ["Son", "Mac", "Ruby", "Woo", "màu", "đỏ", "cổ", "điển"],
+        "tags": ["B-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT", "O", "O", "O", "O"]
+    },
+    {
+        "id": 61,
+        "tokens": ["Toner", "Dear", "Klara", "không", "cồn", "cho", "da", "dầu"],
+        "tags": ["B-PRODUCT", "B-BRAND", "I-BRAND", "B-SAFETY", "I-SAFETY", "O", "B-SKIN_TYPE", "I-SKIN_TYPE"]
+    },
+    {
+        "id": 62,
+        "tokens": ["Kem", "dưỡng", "ẩm", "Eucerin", "chứa", "Urea", "dành", "cho", "da", "rất", "khô"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "O", "B-INGREDIENT", "O", "O", "B-SKIN_TYPE", "I-SKIN_TYPE", "I-SKIN_TYPE"]
+    },
+    {
+        "id": 63,
+        "tokens": ["Serum", "Klairs", "Freshly", "Juiced", "Vitamin", "Drop"],
+        "tags": ["B-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "I-PRODUCT"]
+    },
+    {
+        "id": 64,
+        "tokens": ["Mặt", "nạ", "Banobagi", "Vita", "Genic", "Jelly", "Mask"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "I-PRODUCT"]
+    },
+    {
+        "id": 65,
+        "tokens": ["Sữa", "rửa", "mặt", "Hada", "Labo", "Gokujyun", "Hyaluronic", "Acid"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "I-BRAND", "B-PRODUCT", "B-INGREDIENT", "I-INGREDIENT"]
+    },
+    {
+        "id": 66,
+        "tokens": ["Dầu", "gội", "Head", "Shoulders", "trị", "gàu"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "B-BRAND", "I-BRAND", "B-BENEFIT", "I-BENEFIT"]
+    },
+    {
+        "id": 67,
+        "tokens": ["Kem", "chống", "nắng", "EltaMD", "UV", "Clear", "cho", "da", "mụn"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT", "O", "B-SKIN_TYPE", "I-SKIN_TYPE"]
+    },
+    {
+        "id": 68,
+        "tokens": ["Tẩy", "trang", "Simple", "Micellar", "Water", "làm", "sạch", "sâu"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT", "B-BENEFIT", "I-BENEFIT", "I-BENEFIT"]
+    },
+    {
+        "id": 69,
+        "tokens": ["Serum", "Vitamin", "C", "Mad", "Hippie", "làm", "sáng", "da"],
+        "tags": ["B-PRODUCT", "B-INGREDIENT", "I-INGREDIENT", "B-BRAND", "I-BRAND", "B-BENEFIT", "I-BENEFIT", "I-BENEFIT"]
+    },
+    {
+        "id": 70,
+        "tokens": ["Mặt", "nạ", "ngủ", "Innisfree", "Green", "Tea", "cấp", "ẩm"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "B-INGREDIENT", "I-INGREDIENT", "B-BENEFIT", "I-BENEFIT"]
+    },
+    {
+        "id": 71,
+        "tokens": ["Toner", "The", "Body", "Shop", "Tea", "Tree", "giảm", "mụn"],
+        "tags": ["B-PRODUCT", "B-BRAND", "I-BRAND", "I-BRAND", "B-INGREDIENT", "I-INGREDIENT", "B-BENEFIT", "I-BENEFIT"]
+    },
+    {
+        "id": 72,
+        "tokens": ["Kem", "dưỡng", "ẩm", "Avene", "Tolerance", "Extreme", "cho", "da", "siêu", "nhạy", "cảm"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT", "O", "B-SKIN_TYPE", "I-SKIN_TYPE", "I-SKIN_TYPE", "I-SKIN_TYPE"]
+    },
+    {
+        "id": 73,
+        "tokens": ["Sữa", "chống", "nắng", "Sunplay", "Skin", "Aqua", "Clear", "White"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "I-PRODUCT"]
+    },
+    {
+        "id": 74,
+        "tokens": ["Mặt", "nạ", "My", "Beauty", "Diary", "Hyaluronic", "Acid", "cấp", "nước"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "B-BRAND", "I-BRAND", "I-BRAND", "B-INGREDIENT", "I-INGREDIENT", "B-BENEFIT", "I-BENEFIT"]
+    },
+    {
+        "id": 75,
+        "tokens": ["Kem", "nền", "Giorgio", "Armani", "Luminous", "Silk", "Foundation"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "B-BRAND", "I-BRAND", "B-PRODUCT", "I-PRODUCT", "I-PRODUCT"]
+    },
+    {
+        "id": 76,
+        "tokens": ["Serum", "Cosrx", "Centella", "giúp", "phục", "hồi"],
+        "tags": ["B-PRODUCT", "B-BRAND", "B-INGREDIENT", "B-BENEFIT", "I-BENEFIT", "I-BENEFIT"]
+    },
+    {
+        "id": 77,
+        "tokens": ["Son", "kem", "3CE", "Velvet", "Lip", "Tint"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT", "I-PRODUCT"]
+    },
+    {
+        "id": 78,
+        "tokens": ["Sữa", "rửa", "mặt", "Murad", "Clarifying", "Cleanser", "trị", "mụn"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT", "B-BENEFIT", "I-BENEFIT"]
+    },
+    {
+        "id": 79,
+        "tokens": ["Toner", "Kiehl", "s", "Calendula", "làm", "dịu", "da"],
+        "tags": ["B-PRODUCT", "B-BRAND", "I-BRAND", "B-INGREDIENT", "B-BENEFIT", "I-BENEFIT", "I-BENEFIT"]
+    },
+    {
+        "id": 80,
+        "tokens": ["Kem", "dưỡng", "da", "tay", "The", "Face", "Shop", "Daily", "Perfume", "Hand", "Cream"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "I-BRAND", "I-BRAND", "B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "I-PRODUCT"]
+    },
+    {
+        "id": 81,
+        "tokens": ["Nước", "tẩy", "trang", "Eveline", "Facial", "Tonic"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT"]
+    },
+    {
+        "id": 82,
+        "tokens": ["Mặt", "nạ", "Freeman", "Avocado", "Oatmeal", "Clay", "Mask"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "B-BRAND", "B-INGREDIENT", "I-INGREDIENT", "I-INGREDIENT", "I-INGREDIENT", "I-INGREDIENT"]
+    },
+    {
+        "id": 83,
+        "tokens": ["Serum", "Vichy", "Liftactiv", "Specialist", "Peptide", "C"],
+        "tags": ["B-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT", "B-INGREDIENT", "I-INGREDIENT"]
+    },
+    {
+        "id": 84,
+        "tokens": ["Kem", "chống", "nắng", "Shiseido", "WetForce", "công", "nghệ", "chống", "nước"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "B-PRODUCT", "O", "O", "B-BENEFIT", "I-BENEFIT"]
+    },
+    {
+        "id": 85,
+        "tokens": ["Dầu", "gội", "Moroccanoil", "Hydrating", "Shampoo", "cấp", "ẩm"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT", "B-BENEFIT", "I-BENEFIT"]
+    },
+    {
+        "id": 86,
+        "tokens": ["Tẩy", "tế", "bào", "chết", "Cathy", "Doll", "Sweet", "Dream", "Pink", "Salt"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "I-BRAND", "B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-INGREDIENT"]
+    },
+    {
+        "id": 87,
+        "tokens": ["Kem", "dưỡng", "âm", "Neutrogena", "Hydro", "Boost", "cho", "da", "dầu"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT", "O", "B-SKIN_TYPE", "I-SKIN_TYPE"]
+    },
+    {
+        "id": 88,
+        "tokens": ["Sữa", "rửa", "mặt", "COSRX", "Low", "pH", "Good", "Morning", "Gel", "Cleanser"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "I-PRODUCT", "I-PRODUCT", "I-PRODUCT"]
+    },
+    {
+        "id": 89,
+        "tokens": ["Toner", "Paula", "s", "Choice", "Resist", "Weightless", "Repair"],
+        "tags": ["B-PRODUCT", "B-BRAND", "I-BRAND", "I-BRAND", "B-PRODUCT", "I-PRODUCT", "I-PRODUCT"]
+    },
+    {
+        "id": 90,
+        "tokens": ["Kem", "mắt", "AHC", "The", "Real", "Eye", "Cream", "For", "Face"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "I-PRODUCT", "I-PRODUCT", "I-PRODUCT"]
+    },
+    {
+        "id": 91,
+        "tokens": ["Nước", "hoa", "hồng", "Kose", "Sekisei", "cấp", "ẩm", "làm", "sáng"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "B-PRODUCT", "B-BENEFIT", "I-BENEFIT", "B-BENEFIT", "I-BENEFIT"]
+    },
+    {
+        "id": 92,
+        "tokens": ["Dầu", "tẩy", "trang", "Muji", "Mild", "Oil", "Cleansing"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT", "I-PRODUCT"]
+    },
+    {
+        "id": 93,
+        "tokens": ["Kem", "chống", "nắng", "Kiehl", "s", "Ultra", "Light", "Daily", "UV", "Defense"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "I-BRAND", "B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "I-PRODUCT", "I-PRODUCT"]
+    },
+    {
+        "id": 94,
+        "tokens": ["Serum", "Missha", "Time", "Revolution", "Night", "Repair", "Ampoule"],
+        "tags": ["B-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "I-PRODUCT", "I-PRODUCT"]
+    },
+    {
+        "id": 95,
+        "tokens": ["Mặt", "nạ", "Lululun", "Precious", "Green", "cấp", "ẩm"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT", "B-BENEFIT", "I-BENEFIT"]
+    },
+    {
+        "id": 96,
+        "tokens": ["Kem", "dưỡng", "ẩm", "Bioderma", "Cicabio", "Crème", "làm", "dịu", "da"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT", "B-BENEFIT", "I-BENEFIT", "I-BENEFIT"]
+    },
+    {
+        "id": 97,
+        "tokens": ["Son", "Innisfree", "Vivid", "Cotton", "Ink", "màu", "cam", "đất"],
+        "tags": ["B-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "O", "O", "O"]
+    },
+    {
+        "id": 98,
+        "tokens": ["Sữa", "rửa", "mặt", "The", "Saem", "Healing", "Tea", "Garden", "Green", "Tea"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "I-BRAND", "B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-INGREDIENT", "I-INGREDIENT"]
+    },
+    {
+        "id": 99,
+        "tokens": ["Tẩy", "tế", "bào", "chết", "Rosette", "Gommage", "Peeling", "Gel"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT", "I-PRODUCT"]
+    },
+    {
+        "id": 100,
+        "tokens": ["Tinh", "chất", "Laneige", "Water", "Bank", "Hydro", "Essence"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "I-PRODUCT"]
+    },
+    {
+        "id": 101,
+        "tokens": ["Kem", "dưỡng", "mắt", "Paula", "s", "Choice", "Clinical", "Ceramide-Enriched"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "I-BRAND", "I-BRAND", "B-PRODUCT", "I-PRODUCT"]
+    },
+    {
+        "id": 102,
+        "tokens": ["Nước", "hoa", "hồng", "Neutrogena", "Alcohol-Free", "Toner"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "B-SAFETY", "I-SAFETY", "B-PRODUCT"]
+    },
+    {
+        "id": 103,
+        "tokens": ["Mặt", "nạ", "ngủ", "Vitamin", "C", "Laneige", "White", "Dew"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-INGREDIENT", "I-INGREDIENT", "B-BRAND", "B-PRODUCT", "I-PRODUCT"]
+    },
+    {
+        "id": 104,
+        "tokens": ["Dầu", "tẩy", "trang", "Kose", "Softymo", "Speedy", "Cleansing", "Oil"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "I-PRODUCT"]
+    },
+    {
+        "id": 105,
+        "tokens": ["Sữa", "chống", "nắng", "Hada", "Labo", "UV", "Perfect", "Gel"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "I-BRAND", "B-PRODUCT", "I-PRODUCT", "I-PRODUCT"]
+    },
+    {
+        "id": 106,
+        "tokens": ["Serum", "The", "Ordinary", "Alpha", "Arbutin", "giảm", "đốm", "nâu"],
+        "tags": ["B-PRODUCT", "B-BRAND", "I-BRAND", "B-INGREDIENT", "I-INGREDIENT", "B-BENEFIT", "I-BENEFIT", "I-BENEFIT"]
+    },
+    {
+        "id": 107,
+        "tokens": ["Kem", "dưỡng", "ẩm", "CeraVe", "Daily", "Moisturizing", "Lotion"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT", "I-PRODUCT"]
+    },
+    {
+        "id": 108,
+        "tokens": ["Toner", "Simple", "Soothing", "Facial", "Toner", "làm", "dịu", "da"],
+        "tags": ["B-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BENEFIT", "I-BENEFIT", "I-BENEFIT"]
+    },
+    {
+        "id": 109,
+        "tokens": ["Sữa", "tắm", "Bath", "Body", "Works", "Japanese", "Cherry", "Blossom"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "B-BRAND", "I-BRAND", "I-BRAND", "I-BRAND", "I-BRAND", "I-BRAND"]
+    },
+    {
+        "id": 110,
+        "tokens": ["Kem", "chống", "nắng", "Vichy", "Capital", "Soleil", "Mattifying"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT", "I-PRODUCT"]
+    },
+    {
+        "id": 111,
+        "tokens": ["Mặt", "nạ", "tràm", "trà", "The", "Body", "Shop", "giảm", "mụn"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "B-INGREDIENT", "I-INGREDIENT", "B-BRAND", "I-BRAND", "I-BRAND", "B-BENEFIT", "I-BENEFIT"]
+    },
+    {
+        "id": 112,
+        "tokens": ["Tẩy", "trang", "Bioderma", "Sensibio", "H2O", "cho", "da", "nhạy", "cảm"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT", "O", "B-SKIN_TYPE", "I-SKIN_TYPE", "I-SKIN_TYPE"]
+    },
+    {
+        "id": 113,
+        "tokens": ["Serum", "Klairs", "Midnight", "Blue", "Calming", "Cream"],
+        "tags": ["B-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "I-PRODUCT"]
+    },
+    {
+        "id": 114,
+        "tokens": ["Kem", "dưỡng", "La", "Roche-Posay", "Toleriane", "Dermallergo", "giảm", "kích", "ứng"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "B-BRAND", "I-BRAND", "B-PRODUCT", "I-PRODUCT", "B-BENEFIT", "I-BENEFIT", "I-BENEFIT"]
+    },
+    {
+        "id": 115,
+        "tokens": ["Sữa", "rửa", "mặt", "Innisfree", "Jeju", "Volcanic", "Pore", "Cleansing", "Foam"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "B-INGREDIENT", "I-INGREDIENT", "I-INGREDIENT", "I-INGREDIENT", "I-INGREDIENT"]
+    },
+    {
+        "id": 116,
+        "tokens": ["Phấn", "má", "Hoola", "Benefit", "Bronzer"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "B-BRAND", "I-BRAND", "B-PRODUCT"]
+    },
+    {
+        "id": 117,
+        "tokens": ["Nước", "hoa", "hồng", "Muji", "High", "Moisture", "Toner"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT", "I-PRODUCT"]
+    },
+    {
+        "id": 118,
+        "tokens": ["Dầu", "gội", "Organist", "Cherry", "Blossom", "dưỡng", "tóc"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "B-BRAND", "B-INGREDIENT", "I-INGREDIENT", "B-BENEFIT", "I-BENEFIT"]
+    },
+    {
+        "id": 119,
+        "tokens": ["Kem", "chống", "nắng", "Anessa", "Mild", "Milk", "cho", "da", "nhạy", "cảm"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT", "O", "B-SKIN_TYPE", "I-SKIN_TYPE", "I-SKIN_TYPE"]
+    },
+    {
+        "id": 120,
+        "tokens": ["Tẩy", "trang", "Garnier", "Micellar", "Oil-Infused", "Water"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT", "I-PRODUCT"]
+    },
+    {
+        "id": 121,
+        "tokens": ["Serum", "trị", "mụn", "Bielenda", "Acid", "Peel", "Toner"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "B-INGREDIENT", "I-INGREDIENT", "B-PRODUCT"]
+    },
+    {
+        "id": 122,
+        "tokens": ["Mặt", "nạ", "Mediheal", "Vita", "Lightbeam", "Essential", "Mask"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "I-PRODUCT"]
+    },
+    {
+        "id": 123,
+        "tokens": ["Kem", "dưỡng", "ẩm", "Physiogel", "Daily", "Moisture", "Therapy"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT", "I-PRODUCT"]
+    },
+    {
+        "id": 124,
+        "tokens": ["Son", "dưỡng", "Maybelline", "Baby", "Lips", "Color"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT", "I-PRODUCT"]
+    },
+    {
+        "id": 125,
+        "tokens": ["Sữa", "rửa", "mặt", "Eucerin", "ProAcne", "Solution", "Cleansing", "Gel"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "I-PRODUCT"]
+    },
+    {
+        "id": 126,
+        "tokens": ["Toner", "Klairs", "Supple", "Preparation", "Facial", "Toner"],
+        "tags": ["B-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "I-PRODUCT"]
+    },
+    {
+        "id": 127,
+        "tokens": ["Kem", "chống", "nắng", "Missha", "Sun", "Milk", "SPF50+"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT", "B-BENEFIT"]
+    },
+    {
+        "id": 128,
+        "tokens": ["Serum", "Timeless", "Vitamin", "C", "E", "Ferulic", "Acid"],
+        "tags": ["B-PRODUCT", "B-BRAND", "B-INGREDIENT", "I-INGREDIENT", "I-INGREDIENT", "I-INGREDIENT", "I-INGREDIENT"]
+    },
+    {
+        "id": 129,
+        "tokens": ["Mặt", "nạ", "ngủ", "Sulwhasoo", "Overnight", "Vitalizing", "Mask"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT", "I-PRODUCT"]
+    },
+    {
+        "id": 130,
+        "tokens": ["Dầu", "tẩy", "trang", "DHC", "Deep", "Cleansing", "Oil"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT", "I-PRODUCT"]
+    },
+    {
+        "id": 131,
+        "tokens": ["Kem", "dưỡng", "ẩm", "Laneige", "Water", "Bank", "Gel", "Cream", "cho", "da", "dầu"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "I-PRODUCT", "O", "B-SKIN_TYPE", "I-SKIN_TYPE"]
+    },
+    {
+        "id": 132,
+        "tokens": ["Sữa", "rửa", "mặt", "Perfect", "Whip", "Senka", "giá", "rẻ"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-PRODUCT", "I-PRODUCT", "B-BRAND", "O", "O"]
+    },
+    {
+        "id": 133,
+        "tokens": ["Nước", "hoa", "hồng", "Melano", "CC", "Vitamin", "C"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "I-BRAND", "B-INGREDIENT", "I-INGREDIENT"]
+    },
+    {
+        "id": 134,
+        "tokens": ["Tẩy", "tế", "bào", "chết", "The", "Ordinary", "AHA", "30%", "BHA", "2%"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "I-BRAND", "B-INGREDIENT", "I-INGREDIENT", "B-INGREDIENT", "I-INGREDIENT"]
+    },
+    {
+        "id": 135,
+        "tokens": ["Serum", "Balance", "Active", "Formula", "Gold", "Collagen"],
+        "tags": ["B-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT", "B-INGREDIENT", "I-INGREDIENT"]
+    },
+    {
+        "id": 136,
+        "tokens": ["Kem", "chống", "nắng", "Biore", "UV", "Perfect", "Milk", "kiềm", "dầu"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BENEFIT", "I-BENEFIT"]
+    },
+    {
+        "id": 137,
+        "tokens": ["Mặt", "nạ", "ngủ", "Vitamin", "C", "Origins", "Drink", "Up", "Intensive"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-INGREDIENT", "I-INGREDIENT", "B-BRAND", "B-PRODUCT", "I-PRODUCT", "I-PRODUCT"]
+    },
+    {
+        "id": 138,
+        "tokens": ["Toner", "Cosrx", "Centella", "Water", "Alcohol-Free"],
+        "tags": ["B-PRODUCT", "B-BRAND", "B-INGREDIENT", "I-INGREDIENT", "B-SAFETY", "I-SAFETY"]
+    },
+    {
+        "id": 139,
+        "tokens": ["Sữa", "tắm", "On", "The", "Body", "Perfume", "Violet", "Dream"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "B-BRAND", "I-BRAND", "I-BRAND", "B-PRODUCT", "I-PRODUCT", "I-PRODUCT"]
+    },
+    {
+        "id": 140,
+        "tokens": ["Kem", "dưỡng", "Bioderma", "Atoderm", "Crème", "cho", "da", "khô"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT", "O", "B-SKIN_TYPE", "I-SKIN_TYPE"]
+    },
+    {
+        "id": 141,
+        "tokens": ["Serum", "La", "Roche-Posay", "Hyalu", "B5", "chống", "lão", "hóa"],
+        "tags": ["B-PRODUCT", "B-BRAND", "I-BRAND", "B-INGREDIENT", "I-INGREDIENT", "B-BENEFIT", "I-BENEFIT", "I-BENEFIT"]
+    },
+    {
+        "id": 142,
+        "tokens": ["Son", "Innisfree", "Glow", "Tint", "Lip", "Balm"],
+        "tags": ["B-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "I-PRODUCT"]
+    },
+    {
+        "id": 143,
+        "tokens": ["Sữa", "rửa", "mặt", "Avene", "Cleanance", "Gel", "cho", "da", "mụn"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT", "O", "B-SKIN_TYPE", "I-SKIN_TYPE"]
+    },
+    {
+        "id": 144,
+        "tokens": ["Kem", "chống", "nắng", "Biore", "Aqua", "Rich", "Watery", "Essence"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "I-PRODUCT"]
+    },
+    {
+        "id": 145,
+        "tokens": ["Tẩy", "trang", "Simple", "Kind", "To", "Skin", "Micellar", "Water"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "I-PRODUCT", "I-PRODUCT"]
+    },
+    {
+        "id": 146,
+        "tokens": ["Serum", "The", "Ordinary", "Niacinamide", "10%", "Zinc", "1%"],
+        "tags": ["B-PRODUCT", "B-BRAND", "I-BRAND", "B-INGREDIENT", "I-INGREDIENT", "B-INGREDIENT", "I-INGREDIENT"]
+    },
+    {
+        "id": 147,
+        "tokens": ["Mặt", "nạ", "Banobagi", "Vita", "Genic", "Jelly", "Mask", "Whitening"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BENEFIT"]
+    },
+    {
+        "id": 148,
+        "tokens": ["Kem", "dưỡng", "ẩm", "Hada", "Labo", "Perfect", "Gel"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "I-BRAND", "B-PRODUCT", "I-PRODUCT"]
+    },
+    {
+        "id": 149,
+        "tokens": ["Nước", "hoa", "hồng", "Cocoon", "Bí", "đao", "giảm", "dầu"],
+        "tags": ["B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "B-BRAND", "B-INGREDIENT", "I-INGREDIENT", "B-BENEFIT", "I-BENEFIT"]
+    },
+    {
+        "id": 150,
+        "tokens": ["Toner", "Klairs", "Daily", "Skin", "Hydrating", "Water"],
+        "tags": ["B-PRODUCT", "B-BRAND", "B-PRODUCT", "I-PRODUCT", "I-PRODUCT", "I-PRODUCT"]
+    }
+]
